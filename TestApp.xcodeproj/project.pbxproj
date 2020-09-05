@@ -14,6 +14,7 @@
 		68A68B5F2502970600A1E98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A68B5D2502970600A1E98E /* LaunchScreen.storyboard */; };
 		68A68B6A2502970600A1E98E /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A68B692502970600A1E98E /* TestAppTests.swift */; };
 		68A68B752502970600A1E98E /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A68B742502970600A1E98E /* TestAppUITests.swift */; };
+		68A68B8325032B2600A1E98E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A68B8225032B2600A1E98E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		68A68B702502970600A1E98E /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A68B742502970600A1E98E /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
 		68A68B762502970600A1E98E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A68B8225032B2600A1E98E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				68A68B542502970400A1E98E /* AppDelegate.swift */,
 				68A68B562502970400A1E98E /* ViewController.swift */,
 				68A68B582502970400A1E98E /* Main.storyboard */,
+				68A68B8225032B2600A1E98E /* SecondViewController.swift */,
 				68A68B5B2502970600A1E98E /* Assets.xcassets */,
 				68A68B5D2502970600A1E98E /* LaunchScreen.storyboard */,
 				68A68B602502970600A1E98E /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A68B8325032B2600A1E98E /* SecondViewController.swift in Sources */,
 				68A68B572502970400A1E98E /* ViewController.swift in Sources */,
 				68A68B552502970400A1E98E /* AppDelegate.swift in Sources */,
 			);
