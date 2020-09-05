@@ -14,11 +14,21 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var addnumButton: UIButton!
     
+    var number: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didTapButton(_ sender: UIButton) {
+        number += 1
+        numLabel.text = String(number)
+        if number == 5 {
+            self.performSegue(withIdentifier: "segue", sender: self)
+        }
+    }
+    
 
 }
 
